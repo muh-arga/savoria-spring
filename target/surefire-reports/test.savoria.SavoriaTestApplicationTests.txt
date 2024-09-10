@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.savoria.SavoriaTestApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.255 s -- in test.savoria.SavoriaTestApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.646 s -- in test.savoria.SavoriaTestApplicationTests

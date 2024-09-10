@@ -1,4 +1,4 @@
-# Created at 2024-09-10T16:22:11.324
+# Created at 2024-09-10T17:21:36.419
 Boot Manifest-JAR contains absolute paths in classpath 'd:\Programming\Project\Java\savoria\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
