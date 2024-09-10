@@ -1,0 +1,13 @@
+test\savoria\repository\EmployeeRepository.class
+test\savoria\controller\EmployeeController.class
+test\savoria\model\EmployeeResponse$EmployeeResponseBuilder.class
+test\savoria\entity\Family.class
+test\savoria\SavoriaTestApplication.class
+test\savoria\entity\Employee.class
+test\savoria\service\EmployeeService.class
+test\savoria\model\FamilyResponse.class
+test\savoria\exception\ApiException.class
+test\savoria\model\FamilyResponse$FamilyResponseBuilder.class
+test\savoria\model\WebResponse.class
+test\savoria\model\EmployeeResponse.class
+test\savoria\model\WebResponse$WebResponseBuilder.class
