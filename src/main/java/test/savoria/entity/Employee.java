@@ -1,5 +1,7 @@
 package test.savoria.entity;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 import jakarta.persistence.Entity;
@@ -24,23 +26,23 @@ public class Employee {
 
     private String nama_karyawan;
 
-    private String tanggal_lahir;
+    private LocalDate tanggal_lahir;
 
     private String alamat;
 
     private String email;
 
-    private String valid_from;
+    private LocalDate valid_from;
 
-    private String valid_to;
+    private LocalDate valid_to;
 
-    private String create_by;
+    private Integer create_by;
 
-    private String create_date;
+    private LocalDateTime create_date;
 
-    private String update_by;
+    private Integer update_by;
 
-    private String update_date;
+    private LocalDateTime update_date;
 
     @OneToMany(mappedBy = "employee")
     private List<Family> keluarga;

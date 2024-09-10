@@ -1,5 +1,7 @@
 package test.savoria.entity;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
@@ -25,7 +27,7 @@ public class Family {
 
     private String nama_anggota_keluarga;
 
-    private String tanggal_lahir_anggota_keluarga;
+    private LocalDate tanggal_lahir_anggota_keluarga;
 
     @ManyToOne
     @JoinColumn(name = "employee_id", referencedColumnName = "id")
